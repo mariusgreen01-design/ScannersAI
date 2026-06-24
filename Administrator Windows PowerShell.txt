@@ -1,0 +1,31 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\mpgof> irm https://ollama.com/install.ps1 | iex
+>>> Downloading Ollama for Windows...
+######################################## 100.0%
+>>> Installing Ollama...
+>>> Install complete. Run 'ollama' from the command line.
+PS C:\Users\mpgof> ollama pull llama2
+pulling manifest
+pulling 8934d96d3f08: 100% ▕██████████████████████████████████████████████████████████▏ 3.8 GB
+pulling 8c17c2ebb0ea: 100% ▕██████████████████████████████████████████████████████████▏ 7.0 KB
+pulling 7c23fb36d801: 100% ▕██████████████████████████████████████████████████████████▏ 4.8 KB
+pulling 2e0493f67d0c: 100% ▕██████████████████████████████████████████████████████████▏   59 B
+pulling fa304d675061: 100% ▕██████████████████████████████████████████████████████████▏   91 B
+pulling 42ba7f8a01dd: 100% ▕██████████████████████████████████████████████████████████▏  557 B
+verifying sha256 digest
+writing manifest
+success
+PS C:\Users\mpgof> npm start
+npm error code ENOENT
+npm error syscall open
+npm error path C:\Users\mpgof\package.json
+npm error errno -4058
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Users\mpgof\package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: C:\Users\mpgof\AppData\Local\npm-cache\_logs\2026-06-23T05_06_35_611Z-debug-0.log
+PS C:\Users\mpgof>
